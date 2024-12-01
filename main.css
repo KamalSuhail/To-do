@@ -1,0 +1,9 @@
+* {
+    background-color: lightcyan;
+}
+
+h1 {
+    color: red;
+    display: flex;
+    justify-content: center;
+}
