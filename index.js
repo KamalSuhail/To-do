@@ -4,7 +4,7 @@ var input = document.getElementById("input")
 function add() 
 {
     var listitem = document.createElement("li")
-    listitem.innerHTML=input.value + "<button onclick='deleteItem(event)'>Delete</button>"
+    listitem.innerHTML=input.value + "<button onclick='deleteItem(event)' i class='fas fa-trash'></button>"
     ul.append(listitem)
 }
 
